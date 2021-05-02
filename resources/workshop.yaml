@@ -1,20 +1,26 @@
 apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
-  name: lab-markdown-sample
+  name: knative-fundamentals
 spec:
   title: Knative Fundamentals
   description: A Self paced workshop to walk you through the basics of Knative Serving
-  vendor: eduk8s.io
-  difficulty: beginner
-  duration: 15m
+  vendor: clue2solve.io
+  authors:
+  - Anand Rao
+  difficulty: intermediate
+  duration: 30m
   url: https://github.com/clue2solve/knative-fundamentals-workshop
+  tags:
+  - kubernetes
+  - knative
+  - k8s
   content:
     image: ghcr.io/clue2solve/knative-workshop-eduk8s:latest
     files: github.com/clue2solve/knative-fundamentals-workshop
   session:
     namespaces:
-      budget: small
+      budget: medium
     applications:
       terminal:
         enabled: true
