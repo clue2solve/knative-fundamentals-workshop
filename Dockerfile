@@ -4,7 +4,7 @@ FROM quay.io/eduk8s/base-environment:master
 USER root 
 RUN curl -L -o /tmp/kn https://storage.googleapis.com/knative-nightly/client/latest/kn-linux-amd64 \
     && mv /tmp/kn /usr/local/bin/kn \
-    && chmod 755 /usr/local/bin/kn
+    && chmod 755 /usr/local/bin/kn 
 
 USER 1001
 
