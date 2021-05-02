@@ -2,9 +2,6 @@ modules:
     workshop-overview:
         name: Workshop Overview
         exit_sign: What is Knative
-    # setup-environment:
-    #     name: Setup Environment
-    #     exit_sign: Start Workshop
     exercises/01-what-is-knative:
         name: What is Knative
         exit_sign: HelloWorld
