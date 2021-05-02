@@ -10,10 +10,10 @@ modules:
         exit_sign: HelloWorld
     exercises/02-hello-world:
         name: HelloWorld
-        exit_sign: 
-    exercises/03-hello-world:
-        name: HelloWorld
-        exit_sign:
+        exit_sign: Scale to Zero
+    exercises/03-scale-to-zero:
+        name: Scale to Zero
+        exit_sign: Workshop Summary
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop
