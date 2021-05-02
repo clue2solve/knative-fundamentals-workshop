@@ -8,6 +8,6 @@ spec:
       type: anonymous
   workshops:
   - name: knative-fundamentals
-    capacity: 1
-    expires: 60m
+    capacity: 2
+    expires: 30m
     orphaned: 5m
