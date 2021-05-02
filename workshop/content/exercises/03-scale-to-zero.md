@@ -1,7 +1,7 @@
 In the Previous module ,  we ran the test of the app. Lets quickly run the same again. 
+
 ```terminal:execute
-command: |-
-URL $(kn service list  helloworld-go -o json  | jq --raw-output '.items[].status.url') && echo $URL && curl $URL 
+command: URL=$(kn service list  helloworld-go -o json  | jq --raw-output '.items[].status.url') && echo $URL && curl $URL 
 ```
 
 Lets watch the pods on the second terminal. 
