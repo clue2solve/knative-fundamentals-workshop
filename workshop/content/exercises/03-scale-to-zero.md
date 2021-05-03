@@ -19,3 +19,9 @@ Watch the pods go down after the load goes to zero. After about a minute,  you w
 ```terminal:execute
 command: URL=$(kn service list  helloworld-go -o json  | jq --raw-output '.items[].status.url') && echo $URL && ab -n 1500 -c 100 $URL/
 ```
+
+Time for some cleanup 
+
+```terminal:execute
+command: kn service delete  helloworld-go 
+```
