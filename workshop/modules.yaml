@@ -14,8 +14,8 @@ modules:
     exercises/04-knative-eventing:
         name: Knative Eventing
         exit_sign: Try Knative Eventing
-    exercises/05-scale-to-zero:
-        name: Scale to Zero
+    exercises/05-try-knative-eventing:
+        name: Try Knative Eventing 
         exit_sign: Workshop Summary                
     workshop-summary:
         name: Workshop Summary
