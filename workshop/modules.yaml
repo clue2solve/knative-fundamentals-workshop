@@ -10,7 +10,13 @@ modules:
         exit_sign: Scale to Zero
     exercises/03-scale-to-zero:
         name: Scale to Zero
-        exit_sign: Workshop Summary
+        exit_sign: Knative Eventing
+    exercises/04-knative-eventing:
+        name: Knative Eventing
+        exit_sign: Try Knative Eventing
+    exercises/05-scale-to-zero:
+        name: Scale to Zero
+        exit_sign: Workshop Summary                
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop

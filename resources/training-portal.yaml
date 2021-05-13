@@ -4,6 +4,7 @@ metadata:
   name: clue2solve
 spec:
   portal:
+    title: Workshops @ Clue2solve.io   
     registration:
       type: anonymous
   workshops:

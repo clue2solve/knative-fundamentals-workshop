@@ -3,7 +3,7 @@ kind: Workshop
 metadata:
   name: knative-fundamentals
 spec:
-  title: Knative Fundamentals
+  title: "Knative Fundamentals"
   description: A Self paced workshop to walk you through the basics of Knative Serving
   vendor: clue2solve.io
   authors:
