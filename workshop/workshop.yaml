@@ -7,6 +7,6 @@ modules:
     - exercises/02-hello-world
     - exercises/03-scale-to-zero
     - exercises/04-knative-eventing
-    - exercises/05-try-knative=eventing
+    - exercises/05-try-knative-eventing
     - workshop-summary
 
